@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swamp');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(188, 220, 152);
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+:checked + label{
+    text-decoration: line-through;
+    color: grey;
+}
+
